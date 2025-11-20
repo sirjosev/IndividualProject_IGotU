@@ -3,8 +3,9 @@ torch
 torchaudio
 gradio
 opencv-python-headless
-fer
 openai-whisper
 numpy
 scipy
 accelerate
+pillow
+timm
