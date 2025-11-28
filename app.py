@@ -1,12 +1,3 @@
-import gradio as gr
-import cv2
-import whisper
-# --- 2. FUNGSI LOGIKA ---
-
-def get_emotion_analysis(video_path):
-    """
-    Menganalisis video dan mengembalikan distribusi emosi dalam bentuk persentase.
-    """
     cap = cv2.VideoCapture(video_path)
     emotions_list = []
     frame_count = 0
